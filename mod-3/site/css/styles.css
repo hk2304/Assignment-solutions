@@ -1,0 +1,123 @@
+#header-nav{
+	background-color: tomato;
+	border:2px solid black;
+}
+
+div.navbar-brand {
+	height: 100px;
+	font-family: Comic Sans ms;
+
+	
+}
+.navbar-brand a{
+	text-decoration: none;
+	color: cornsilk;
+}
+
+.navbar-toggle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	float: right;
+
+	}
+#nav-list{
+	margin-bottom: 0;
+	
+
+}
+
+.border-bottom{
+	margin:0;
+	border-bottom: 1px solid black;
+}
+.border-bottom a{
+	font-size: 1.5em;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: lightsalmon;
+    color: cornsilk;
+}
+.navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a:active {
+    background-color: lightsalmon;
+    color: cornsilk;
+}
+
+#main-content div{
+	background-color: white;
+
+}
+.row h2{
+	text-align: center;
+	font-family: Comic Sans ms;
+	margin:30px;
+
+}
+
+#menu-description>section{
+	background-color: cornsilk;
+	padding:10px;
+	margin: 20px 0 20px;
+}
+
+section.Chicken>p,section.Beef>p,section.Sushi>p{
+	font-family: comic sans ms;
+	font-size:1em;
+}
+section.Chicken>h3{
+	font-family: comic sans ms;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+section.Beef>h3{
+	font-family: comic sans ms;
+	font-weight: bold;
+	text-align: center;
+}
+
+section.Sushi>h3{
+	font-family: comic sans ms;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+/*Medium resolution*/
+@media (min-width: 768px){
+
+#nav-list{
+	display: none;
+}
+
+
+
+
+}
+
+
+/*Small resolution*/
+@media ( max-width: 767.98px) {
+
+
+
+}
+
+	
+
+
+
+
+/*ExtraSmall resolution*/
+@media (max-width: 575.98px){
+
+
+	}
+
+
+
+
+
